@@ -286,6 +286,7 @@
 				607752541BD28E4300C62204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
