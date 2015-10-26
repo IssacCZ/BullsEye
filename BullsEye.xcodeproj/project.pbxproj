@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60519DD71BDE5979002A4942 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60519DD61BDE5979002A4942 /* AboutViewController.swift */; };
 		607752441BD28E4200C62204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607752431BD28E4200C62204 /* AppDelegate.swift */; };
 		607752461BD28E4200C62204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607752451BD28E4200C62204 /* ViewController.swift */; };
 		607752491BD28E4200C62204 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607752471BD28E4200C62204 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		60519DD61BDE5979002A4942 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		607752401BD28E4000C62204 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607752431BD28E4200C62204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607752451BD28E4200C62204 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60519DD21BDE57FF002A4942 /* suportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6077524F1BD28E4300C62204 /* Info.plist */,
+			);
+			name = suportFiles;
+			sourceTree = "<group>";
+		};
+		60519DD31BDE585C002A4942 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				607752431BD28E4200C62204 /* AppDelegate.swift */,
+				607752451BD28E4200C62204 /* ViewController.swift */,
+				60519DD61BDE5979002A4942 /* AboutViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		60519DD41BDE5893002A4942 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6077524A1BD28E4300C62204 /* Assets.xcassets */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		60519DD51BDE58AC002A4942 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				607752471BD28E4200C62204 /* Main.storyboard */,
+				6077524C1BD28E4300C62204 /* LaunchScreen.storyboard */,
+			);
+			name = storyboards;
+			sourceTree = "<group>";
+		};
 		607752371BD28E3F00C62204 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +91,10 @@
 		607752421BD28E4100C62204 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
-				607752431BD28E4200C62204 /* AppDelegate.swift */,
-				607752451BD28E4200C62204 /* ViewController.swift */,
-				607752471BD28E4200C62204 /* Main.storyboard */,
-				6077524A1BD28E4300C62204 /* Assets.xcassets */,
-				6077524C1BD28E4300C62204 /* LaunchScreen.storyboard */,
-				6077524F1BD28E4300C62204 /* Info.plist */,
+				60519DD31BDE585C002A4942 /* controllers */,
+				60519DD51BDE58AC002A4942 /* storyboards */,
+				60519DD41BDE5893002A4942 /* resources */,
+				60519DD21BDE57FF002A4942 /* suportFiles */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -135,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60519DD71BDE5979002A4942 /* AboutViewController.swift in Sources */,
 				607752461BD28E4200C62204 /* ViewController.swift in Sources */,
 				607752441BD28E4200C62204 /* AppDelegate.swift in Sources */,
 			);
