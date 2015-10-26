@@ -91,6 +91,9 @@
                                 <rect key="frame" x="64" y="275" width="71" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Start Over"/>
+                                <connections>
+                                    <action selector="startOver" destination="BYZ-38-t0r" eventType="touchUpInside" id="qiv-hq-Lge"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oZc-sq-tfj">
                                 <rect key="frame" x="473" y="278" width="22" height="22"/>
