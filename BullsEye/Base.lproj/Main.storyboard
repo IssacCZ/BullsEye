@@ -102,6 +102,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="j4N-ku-24G"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="slider" destination="WmK-8L-0z7" id="pjL-Gh-3ul"/>
+                        <outlet property="targetLabel" destination="bGM-R6-uDk" id="v1d-M2-26p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
