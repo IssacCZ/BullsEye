@@ -103,6 +103,8 @@
                     <navigationItem key="navigationItem" id="j4N-ku-24G"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="roundLabel" destination="FSW-vN-VD5" id="VQU-mA-WC3"/>
+                        <outlet property="scoreLabel" destination="yMk-bP-RGY" id="5IM-ZN-YwR"/>
                         <outlet property="slider" destination="WmK-8L-0z7" id="pjL-Gh-3ul"/>
                         <outlet property="targetLabel" destination="bGM-R6-uDk" id="v1d-M2-26p"/>
                     </connections>
