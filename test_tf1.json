@@ -1,0 +1,128 @@
+{
+    "format": "layers-model",
+    "generatedBy": "keras v2.4.0",
+    "convertedBy": "TensorFlow.js Converter v3.4.0",
+    "modelTopology": {
+        "keras_version": "2.4.0",
+        "backend": "tensorflow",
+        "model_config": {
+            "class_name": "Functional",
+            "config": {
+                "name": "model",
+                "layers": [
+                    {
+                        "class_name": "InputLayer",
+                        "config": {
+                            "batch_input_shape": [
+                                1,
+                                1,
+                                null,
+                                null
+                            ],
+                            "dtype": "float32",
+                            "sparse": false,
+                            "ragged": false,
+                            "name": "80"
+                        },
+                        "name": "80",
+                        "inbound_nodes": []
+                    },
+                    {
+                        "class_name": "Conv2D",
+                        "config": {
+                            "name": "179",
+                            "trainable": true,
+                            "dtype": "float32",
+                            "filters": 2,
+                            "kernel_size": [
+                                7,
+                                7
+                            ],
+                            "strides": [
+                                1,
+                                1
+                            ],
+                            "padding": "valid",
+                            "data_format": "channels_first",
+                            "dilation_rate": [
+                                1,
+                                1
+                            ],
+                            "groups": 1,
+                            "activation": "linear",
+                            "use_bias": true,
+                            "kernel_initializer": {
+                                "class_name": "Zeros",
+                                "config": {}
+                            },
+                            "bias_initializer": {
+                                "class_name": "Zeros",
+                                "config": {}
+                            },
+                            "kernel_regularizer": null,
+                            "bias_regularizer": null,
+                            "activity_regularizer": null,
+                            "kernel_constraint": null,
+                            "bias_constraint": null
+                        },
+                        "name": "179",
+                        "inbound_nodes": [
+                            [
+                                [
+                                    "80",
+                                    0,
+                                    0,
+                                    {}
+                                ]
+                            ]
+                        ]
+                    }
+                ],
+                "input_layers": [
+                    [
+                        "80",
+                        0,
+                        0
+                    ]
+                ],
+                "output_layers": [
+                    [
+                        "179",
+                        0,
+                        0
+                    ]
+                ]
+            }
+        }
+    },
+    "weightsManifest": [
+        {
+            "paths": [
+                "save_model_test.bin"
+            ],
+            "weights": [
+                
+                {
+                    "name": "179/kernel",
+                    "shape": [
+                        7,
+                        7,
+                        1,
+                        2
+                    ],
+                    "dtype": "float32"
+                },
+                {
+                    "name": "179/bias",
+                    "shape": [
+                        2
+                    ],
+                    "dtype": "float32"
+                }
+            ]
+        }
+    ]
+}
+
+
+
